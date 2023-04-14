@@ -20,6 +20,4 @@ def main():
 if __name__ == '__main__':
     main()
     
-STATIC_URL = '/static/
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
