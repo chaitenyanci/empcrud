@@ -1,10 +1,10 @@
 version: 0.2
 env:
   secrets-manager:
-    LOGIN: crud/sonar:sonartoken
-    HOST: crud/sonar:HOST
-    Organization: crud/sonar:Organization
-    Project: crud/sonar:Project
+    LOGIN: prod1/sonar:sonartoken
+    HOST: prod1/sonar:HOST
+    Organization: prod1/sonar:Organization
+    Project: prod1/sonar:Project
 phases:
   install:
     runtime-versions:
